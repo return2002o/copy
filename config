@@ -1,0 +1,8 @@
+Host ssh.return2002o.me
+    HostName ssh.return2002o.me
+    TCPKeepAlive yes
+    User dong
+    ServerAliveInterval 15
+    IdentityFile ~/.ssh/ctyun_ubuntu
+    Port 22
+    ProxyCommand /opt/homebrew/bin/cloudflared access ssh --hostname %h
