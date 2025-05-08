@@ -1,0 +1,6 @@
+tunnel: 720a5ea4-5779-427e-bf8f-461219d4a9e4
+credentials-file /root/.cloudflared/720a5ea4-5779-427e-bf8f-461219d4a9e4.json
+ingress:
+  - hostname: ssh.return2002o.me
+    service: ssh://localhost:22
+  - service: http_status:404 
