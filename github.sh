@@ -1,2 +1,2 @@
 #!/bin/bash
-wget https://objects.githubusercontent.com/github-production-release-asset-2e65be/106867604/f6f8a9db-3887-4a1c-9ecb-9781f97395a5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250508%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250508T071143Z&X-Amz-Expires=300&X-Amz-Signature=c7c06f8dcc14ac3b880cca50a7ca0d6475b6e1dcdf1f9d3c5a00a832d02ea916&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dcloudflared-linux-amd64.deb&response-content-type=application%2Foctet-stream
+wget https://github.com/cloudflare/cloudflared/releases/download/2025.4.2/cloudflared-linux-amd64.deb
